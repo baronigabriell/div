@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+#section1{
+    background-color: #114886;
+    height: 100vh;
+    padding-top: 70px;
+}
+div{
+    background-image: url(images.jpg);
+    border: 5px solid black;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.one{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    z-index: 2;
+    height: 15rem;
+    width: 25rem;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    z-index: 3;
+    height: 7rem;
+    width: 5rem;
+    top: 53.2%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    z-index: 2;
+    height: 3rem;
+    width: 7rem;
+    top: 40%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 10deg;
+}
+.five{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    height: 13rem;
+    width: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 30deg;
+}
+p{
+    margin: 0;
+    color: white;
+    font-family: monospace;
+}
+a{
+    color: white;
+}
+#section2{
+    background-color: #9164a7;
+    height: 100vh;
+}
+.sophie{
+    background-image: url(sophie.jpg);
+    width: 100%;
+    height: 300px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 70px;
+}
